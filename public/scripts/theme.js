@@ -1,1 +1,0 @@
-document.getElementById("searchLocalidad").placeholder = "Búsqueda";
