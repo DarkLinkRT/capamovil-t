@@ -1,0 +1,83 @@
+#pagePagos > .header-md::after{
+    background-image: none !important;
+}
+
+/*** ESTILO TOP **/
+
+#principalDisenio{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    content: "";
+    display: block;
+    height: 160px;
+    background: #03a4d0;
+}
+
+.dark #principalDisenio {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    content: "";
+    display: block;
+    height: 160px;
+    background: #07181d !important;
+}
+
+
+/***** END:: ESTILO TOP ********/
+
+/*** ESTILOS DE LA TARJETA DE AVISO DE PAGO */
+
+#cardTotal{
+    font-size: 34px;
+    font-weight: 700;
+}
+
+#cardFechaLimite{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/*** END:: ESTILOS DE LA TARJETA DE AVISO DE PAGO */
+
+/*** ENTILOS DE LA TARJETA DE UBICACIONES Y ENCUESTAS ***/
+
+#iconEncuesta{
+    content:url("../../img/icon_encuestas.png");
+}
+
+#iconUbicacion{
+    content:url("../../img/ubicacion.png");
+}
+
+#lblAvatar{
+    margin-left: 20px;
+}
+
+#iconFlecha{
+    float: right;
+    font-size: 25px !important;
+}
+
+/*** END::ENTILOS DE LA TARJETA DE UBICACIONES Y ENCUESTAS ***/
+
+/** ESTILOS DE LA TARJETA PIE**/
+
+#txtPrincipalFooter{
+    color: #45b8d7 !important;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#txtTelefono{
+    font-size: 16px;
+}
+
+#linkCapa{
+    color: inherit;
+    text-decoration: none;
+}
+/** END:: ESTILOS DE LA TARJETA PIE**/

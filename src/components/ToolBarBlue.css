@@ -1,0 +1,74 @@
+#iconNotificaciones{
+    font-size: 24px;
+    padding-right: 15px;
+    transform: translateX(-5px) translateY(-10px);
+}
+
+#iconAddRecibo{
+    font-size: 24px;
+    padding-right: 15px;
+    transform: translateX(-10px) translateY(-10px);
+}
+
+#imgProfileTopBar{
+    content:url("../img/icon_profile/icon-3.png");
+    width: 40px;
+    height: 40px;
+    transform: translateY(-3px);
+    margin-right: 15px;
+}
+
+#logoTopBar{
+    content:url("../img/logo_white.png");
+    width: 110px;
+    transform: translateY(-4px) translateX(0px);
+}
+
+#colMenu, #colLogo, #colProfile {
+    align-self: center;
+    text-align-last: right;
+}
+
+#colLogo{
+    text-align-last: center;
+}
+
+.button-inner {
+  justify-content: left !important;
+}
+
+#toolBarApp{
+    height: 60px;
+}
+
+#menuBtn::part(native){
+    transform: translateY(0px);
+}
+
+.dark #menuBtn::part(native){
+    transform: translateY(0px);
+    color: white !important;
+}
+
+.dark #iconNotificaciones{
+    color: white !important;
+}
+
+.dark #iconAddRecibo{
+    color: white !important;
+}
+
+#imgProfile{
+    width: 40px;
+    height: 40px;
+    transform: translateY(-3px);
+    margin-right: 15px;
+}
+
+#iconResponse{
+    content:url("../img/response.png");
+}
+
+#iconPerfilCF{
+    content:url("../img/response.png");
+}

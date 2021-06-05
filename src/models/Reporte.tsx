@@ -1,0 +1,20 @@
+export default interface ReporteModel{
+    id : string,
+    numero_reporte : string,
+    co_usuario_id : string,
+    fecha_reporte : string,
+    direccion : string,
+    cat_municipio : { id : string , name : string},
+    colonia : string,
+    asunto : string,
+    latitud : string,
+    longitud : string,
+    coordenadas : string,
+    cat_estatus_reporte : { id : string , name : string},
+    activo : boolean,
+    created : string,
+    modified : string,
+    cat_localidade : { id : string , nombre : string },
+    co_usuario : { id : string , login : string  },
+    fotos? : { id : string , name : string , ruta : string }
+}
