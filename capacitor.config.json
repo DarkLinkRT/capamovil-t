@@ -1,0 +1,21 @@
+{
+  "appId": "com.app.capa.jorgeitza.marianajacome",
+  "appName": "CapaMovil",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    },
+    "LocalNotifications": {
+      "smallicon" : "ic_stat_ionic_logo",
+      "iconColor" : "#000000",
+      "sound" : "default"
+    },
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"]
+    }
+  },
+  "cordova": {}
+}
